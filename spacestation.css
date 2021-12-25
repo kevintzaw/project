@@ -15,8 +15,7 @@ body {
     background-color: #fff;
 }
 
-footer,
-nav {
+footer, nav {
     display:block;
 }
 
@@ -24,12 +23,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-hi {
+h1{
     line-height: 50px;
     font-weight: 900;
     font-size: 30px;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     color: #E91C1C;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
@@ -137,6 +136,7 @@ section {
     padding-top: 350px;
     padding-bottom: 500px;
     color: #fff;
+    text-align: center;
 }
 
 .head-main {
@@ -146,7 +146,7 @@ section {
     letter-spacing: 5pt;
     word-spacing:21pt;
     font-size: 4.5em;
-    text-align: center;
+    text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
@@ -177,7 +177,7 @@ section {
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
-    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .5)
 }
 
 #contact {
@@ -237,7 +237,7 @@ section {
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text"] {
+.reservation form [type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
